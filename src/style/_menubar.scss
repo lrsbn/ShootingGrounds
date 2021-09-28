@@ -1,0 +1,12 @@
+.menubar {
+    // background-color: $button-background-color;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 3rem;
+
+    > * {
+        width: 25%;
+    }
+}

@@ -1,0 +1,25 @@
+.actionmenu {
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+}
+
+.actionmenu-button {
+    font-family: inherit;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: $button-background-color;
+    transition: background-color .1s ease-in-out;
+    box-shadow: $box-shadow;
+
+    &:focus,
+    &:hover {
+        background-color: $button-background-color-hover;
+    }
+
+    i {
+        color: white;
+    }
+}
